@@ -1,19 +1,19 @@
 <script>
-import appTitle from "./components/AppTitle.vue";
-/* import jumbo from "./components/jumbo.vue"; */
+import TitleApp from "./components/TitleApp.vue";
+import AppHero from "./components/AppHero.vue";
 
 export default {
   components: {
-    appTitle,
-   /*  jumbo, */
+    TitleApp,
+    AppHero,
   },
 };
 </script>
 
 <template>
   <div>
-    <appTitle />
-    <Jumbo />
+    <TitleApp />
+    <AppHero />
   </div>
 </template>
 

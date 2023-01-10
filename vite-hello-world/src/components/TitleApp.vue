@@ -1,12 +1,12 @@
 <script>
 export default {
-  name: "appTitle",
+  name: "TitleApp",
   data() {
     return {
       hello: "La Mia Prima App Con Vite!",
     };
   },
-  methods: {},
+  
 };
 </script>
 
