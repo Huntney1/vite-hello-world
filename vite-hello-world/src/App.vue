@@ -11,11 +11,18 @@ export default {
 </script>
 
 <template>
-  <div>
+  <div class="bordi">
     <TitleApp />
     <AppHero />
   </div>
 </template>
 
 <style scope>
+.bordi{
+  width: 15em;
+  height: 5em;
+  padding-top: 1.5em;
+  border: 2px solid white;
+
+}
 </style>
