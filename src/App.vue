@@ -20,7 +20,7 @@ export default {
   </div>
 </template>
 
-<style scope>
+<style lang="scss" scope>
 .bordi {
   width: 15em;
   height: 5em;
@@ -29,7 +29,7 @@ export default {
 }
 .bordi:hover{
   display: none;
-  background-color: rgb(128, 4, 162);
+  background-color: rgb(0, 0, 0);
 }
 
 .bordi:hover {
@@ -39,6 +39,6 @@ export default {
 }
 
 .title:hover {
-  text-shadow: 2px 2px 5px blue;
+  text-shadow: 1.5px 2px 3px blue;
 }
 </style>
